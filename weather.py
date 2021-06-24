@@ -56,7 +56,7 @@ print ("Current wind speed    :",wind_spd ,'kmph')
 # Log the obtained weather data to a text file called "output.txt"
 # Write the lines to the file
 
-with open('output.txt', 'w') as writefile:
+with open('/content/output.txt', 'w') as writefile:
     print ("-------------------------------------------------------------", file=writefile)
     print ("Weather Stats for - {}  || {}".format(location.upper(), date_time), file=writefile)
     print ("-------------------------------------------------------------", file=writefile)
@@ -68,5 +68,5 @@ with open('output.txt', 'w') as writefile:
 
 # Verify if the appending is successfully executed
 
-with open('output.txt', 'r') as readfile:
+with open('/content/output.txt', 'r') as readfile:
     print(readfile.read())
