@@ -4,4 +4,3 @@ Fetching weather information with a 3rd party API with python, and also recordin
 
 # Nirmani Jayaprabha Pathiranage
 # nirma2015@gmail.com
-# +94712233126
